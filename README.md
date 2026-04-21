@@ -27,6 +27,46 @@ The system uses:
 
 The model is trained using synthetic data simulating API behavior and failures.
 
+##  Testing
+
+API endpoints were tested using Postman to validate request-response behavior.
+
+Tested Features:
+
+* API request validation
+* JSON request handling
+* Prediction response verification
+* Error handling scenarios
+
+##  Deployment
+
+The project is prepared for deployment using modern cloud tools.
+
+### Backend Deployment
+
+* Platform: Render
+* Server: Flask with Gunicorn
+* Dependencies managed using requirements.txt
+
+##  Frontend (React)
+
+A simple React-based user interface was developed to interact with the Machine Learning model.
+
+Users can:
+
+* Enter API testing data
+* Send requests to the Flask backend
+* Receive real-time predictions (PASS / FAIL)
+
+The frontend communicates with the Flask API using HTTP POST requests.
+
+To run the frontend:
+
+```bash
+cd frontend
+npm install
+npm start
+```
 
 
 ##  Features Used
